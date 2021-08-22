@@ -1,0 +1,7 @@
+
+*.obj
+*.suo
+CppLab/Debug
+CppLab/.vs
+CSharpLab/bin
+CSharpLab/obj
