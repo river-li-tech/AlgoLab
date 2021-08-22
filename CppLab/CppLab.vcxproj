@@ -145,6 +145,7 @@
     <ClCompile Include="FindTreeNextNode.cpp" />
     <ClCompile Include="GetDuplication.cpp" />
     <ClCompile Include="MinRotateArray.cpp" />
+    <ClCompile Include="PathInMatrix.cpp" />
     <ClCompile Include="QueueByStack.cpp" />
     <ClCompile Include="ReplaceBlank.cpp" />
     <ClCompile Include="RevertPrintLink.cpp" />
