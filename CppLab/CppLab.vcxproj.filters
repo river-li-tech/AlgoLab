@@ -15,37 +15,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GetDuplication.cpp">
+    <ClCompile Include="09_QueueByStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FindMatrix.cpp">
+    <ClCompile Include="10_Fibonacci.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ReplaceBlank.cpp">
+    <ClCompile Include="11_MinRotateArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RevertPrintLink.cpp">
+    <ClCompile Include="12_PathInMatrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BuildTree.cpp">
+    <ClCompile Include="13_MovingCount.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TreeLevelOrder.cpp">
+    <ClCompile Include="14_CuttingRope.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FindTreeNextNode.cpp">
+    <ClCompile Include="15_HammingWeight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QueueByStack.cpp">
+    <ClCompile Include="02_GetDuplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Fibonacci.cpp">
+    <ClCompile Include="04_FindMatrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MinRotateArray.cpp">
+    <ClCompile Include="05_ReplaceBlank.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PathInMatrix.cpp">
+    <ClCompile Include="06_RevertPrintLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="07_01_TreeLevelOrder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="07_BuildTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="08_FindTreeNextNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

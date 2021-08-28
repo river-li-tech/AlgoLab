@@ -18,6 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="02_GetDuplication.cpp" />
+    <ClCompile Include="04_FindMatrix.cpp" />
+    <ClCompile Include="05_ReplaceBlank.cpp" />
+    <ClCompile Include="06_RevertPrintLink.cpp" />
+    <ClCompile Include="07_01_TreeLevelOrder.cpp" />
+    <ClCompile Include="07_BuildTree.cpp" />
+    <ClCompile Include="08_FindTreeNextNode.cpp" />
+    <ClCompile Include="09_QueueByStack.cpp" />
+    <ClCompile Include="10_Fibonacci.cpp" />
+    <ClCompile Include="11_MinRotateArray.cpp" />
+    <ClCompile Include="12_PathInMatrix.cpp" />
+    <ClCompile Include="13_MovingCount.cpp" />
+    <ClCompile Include="14_CuttingRope.cpp" />
+    <ClCompile Include="15_HammingWeight.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,19 +154,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="BuildTree.cpp" />
-    <ClCompile Include="Fibonacci.cpp" />
-    <ClCompile Include="FindMatrix.cpp" />
-    <ClCompile Include="FindTreeNextNode.cpp" />
-    <ClCompile Include="GetDuplication.cpp" />
-    <ClCompile Include="MinRotateArray.cpp" />
-    <ClCompile Include="PathInMatrix.cpp" />
-    <ClCompile Include="QueueByStack.cpp" />
-    <ClCompile Include="ReplaceBlank.cpp" />
-    <ClCompile Include="RevertPrintLink.cpp" />
-    <ClCompile Include="TreeLevelOrder.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
