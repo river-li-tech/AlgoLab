@@ -57,5 +57,14 @@
     <ClCompile Include="08_FindTreeNextNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="16_Exponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="17_PrintNDigits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="18_DeleteLinkNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

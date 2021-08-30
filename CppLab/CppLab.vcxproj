@@ -33,6 +33,9 @@
     <ClCompile Include="13_MovingCount.cpp" />
     <ClCompile Include="14_CuttingRope.cpp" />
     <ClCompile Include="15_HammingWeight.cpp" />
+    <ClCompile Include="16_Exponent.cpp" />
+    <ClCompile Include="17_PrintNDigits.cpp" />
+    <ClCompile Include="18_DeleteLinkNode.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
