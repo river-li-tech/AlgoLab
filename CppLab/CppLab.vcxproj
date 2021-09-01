@@ -36,6 +36,7 @@
     <ClCompile Include="16_Exponent.cpp" />
     <ClCompile Include="17_PrintNDigits.cpp" />
     <ClCompile Include="18_DeleteLinkNode.cpp" />
+    <ClCompile Include="21_Exchange.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

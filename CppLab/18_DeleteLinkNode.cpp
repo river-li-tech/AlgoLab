@@ -9,7 +9,7 @@
 返回删除后的链表的头节点。
 */
 
-#define DELETELINKNODE
+//#define DELETELINKNODE
 
 #ifdef DELETELINKNODE
 using namespace std;
