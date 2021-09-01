@@ -69,5 +69,11 @@
     <ClCompile Include="21_Exchange.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="22_GetKthFromEnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="23_RevertList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

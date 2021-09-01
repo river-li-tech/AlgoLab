@@ -9,7 +9,7 @@
 所有偶数位于数组的后半部分。
 */
 
-#define EXCHANGE
+//#define EXCHANGE
 
 #ifdef EXCHANGE
 using namespace std;
