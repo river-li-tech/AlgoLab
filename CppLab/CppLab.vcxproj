@@ -38,7 +38,10 @@
     <ClCompile Include="18_DeleteLinkNode.cpp" />
     <ClCompile Include="21_Exchange.cpp" />
     <ClCompile Include="22_GetKthFromEnd.cpp" />
-    <ClCompile Include="23_RevertList.cpp" />
+    <ClCompile Include="23_CircleEntry.cpp" />
+    <ClCompile Include="23_GetIntersectionNode.cpp" />
+    <ClCompile Include="24_RevertList.cpp" />
+    <ClCompile Include="25_MergeList.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

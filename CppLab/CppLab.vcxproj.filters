@@ -72,7 +72,16 @@
     <ClCompile Include="22_GetKthFromEnd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="23_RevertList.cpp">
+    <ClCompile Include="24_RevertList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="25_MergeList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="23_CircleEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="23_GetIntersectionNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
