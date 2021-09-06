@@ -6,13 +6,13 @@
 #include <queue>
 
 /*
-输入两棵二叉树A和B，判断B是不是A的子结构。(约定空树不是任意一个树的子结构)
-B是A的子结构， 即 A中有出现和B相同的结构和节点值。
+请实现一个函数，用来判断一棵二叉树是不是对称的。
+如果一棵二叉树和它的镜像一样，那么它是对称的。
 */
 
-//#define SUBTREE
+//#define SYMMETRICTREES
 
-#ifdef SUBTREE
+#ifdef SYMMETRICTREES
 using namespace std;
 
 struct TreeNode
@@ -23,32 +23,33 @@ struct TreeNode
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-bool isSameTree(TreeNode* A, TreeNode* B)
+bool isSymmetricTrees(TreeNode* rootA, TreeNode* rootB)
 {
-    if (B == nullptr) return true;
-    if (A == nullptr) return false;
-    if (A->val != B->val) return false;
-    return isSameTree(A->left, B->left) && isSameTree(A->right, B->right);
+    if (rootA == nullptr && rootB == nullptr) return true;
+    if (rootA == nullptr || rootB == nullptr) return false;
+
+    if (rootA->val != rootB->val) return false;
+    if (!isSymmetricTrees(rootA->left, rootB->right)) return false;
+    if (!isSymmetricTrees(rootA->right, rootB->left)) return false;
+    return true;
 }
 
-bool isSubStructure(TreeNode* A, TreeNode* B)
+bool isSymmetric(TreeNode* root)
 {
-    if (A == nullptr || B == nullptr) return false;
-    if (isSameTree(A, B)) return true;
-    return isSubStructure(A->left, B) || isSubStructure(A->right, B);
+    return isSymmetricTrees(root, root);
 }
 
 TreeNode* CreateTreeLevelOrder(vector<vector<int>> vals)
 {
     vector<vector<TreeNode*>> list;
-    for (int row = 0; row < vals.size(); row++) {
-        int cnt = pow(2, row);
+    for (size_t row = 0; row < vals.size(); row++) {
+        size_t cnt = (size_t)pow(2, row);
         if (vals[row].size() < cnt) {
             printf("CreateTreeLevelOrder error.\n");
             break;
         }
         vector<TreeNode*> rowlist;
-        for (int col = 0; col < cnt; col++) {
+        for (size_t col = 0; col < cnt; col++) {
             TreeNode* pnode = nullptr;
             int val = vals[row][col];
             if (val >= 0) {
@@ -78,7 +79,7 @@ void PrintTreeLevelOrder(TreeNode* root)
     queue<TreeNode*> queue;
     queue.push(root);
     while (queue.size() != 0) {
-        int size = queue.size();
+        size_t size = queue.size();
         for (size_t idx = 0; idx < size; idx++) {
             TreeNode* node = queue.front();
             queue.pop();
@@ -99,24 +100,16 @@ int main(int argc, char** argv)
 {
     vector<vector<int>> vals1 = {
         {1},
-        {2, 3},
-        {-1, -1, 4, 5}
+        {2, 2},
+        {3, 4, 4, 3}
     };
     TreeNode *head1 = CreateTreeLevelOrder(vals1);
-
-    vector<vector<int>> vals2 = {
-           {1},
-           {2, 3},
-           {-1, -1, 4, 5},
-           {-1, -1, -1, -1, -1, -1, -1, 1}
-    };
-    TreeNode* head2 = CreateTreeLevelOrder(vals2);
     PrintTreeLevelOrder(head1);
 
-    bool isSame = isSameTree(head1, head2);
-    printf("isSameTree:%s\n", isSame ? "true" : "false");
+    bool bsym = isSymmetric(head1);
+    printf("isSymetric:%s\n", bsym ? "true" : "false");
 
     getchar();
     return 0;
 }
-#endif // SUBTREE
+#endif // SYMMETRICTREES

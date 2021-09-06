@@ -87,5 +87,14 @@
     <ClCompile Include="26_SubTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="27_MirrorTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="28_SymmetricTrees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="29_PrintMatrixInCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
