@@ -9,7 +9,7 @@
 请找出并返回两个单链表相交的起始节点。如果两个链表没有交点，返回 null 。
 */
 
-#define GETINTERSECTIONNODE
+//#define GETINTERSECTIONNODE
 
 #ifdef GETINTERSECTIONNODE
 using namespace std;

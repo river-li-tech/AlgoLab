@@ -42,6 +42,7 @@
     <ClCompile Include="23_GetIntersectionNode.cpp" />
     <ClCompile Include="24_RevertList.cpp" />
     <ClCompile Include="25_MergeList.cpp" />
+    <ClCompile Include="26_SubTree.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

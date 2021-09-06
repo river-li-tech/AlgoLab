@@ -2,6 +2,7 @@
 *.obj
 *.suo
 CppLab/Debug
+CppLab/x64
 CppLab/.vs
 CSharpLab/bin
 CSharpLab/obj
