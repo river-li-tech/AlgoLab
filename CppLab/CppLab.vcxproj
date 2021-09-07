@@ -46,6 +46,8 @@
     <ClCompile Include="27_MirrorTree.cpp" />
     <ClCompile Include="28_SymmetricTrees.cpp" />
     <ClCompile Include="29_PrintMatrixInCircle.cpp" />
+    <ClCompile Include="30_MinStack.cpp" />
+    <ClCompile Include="31_ValidateStackSeq.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -93,7 +93,13 @@
     <ClCompile Include="28_SymmetricTrees.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="31_ValidateStackSeq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="29_PrintMatrixInCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="30_MinStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
