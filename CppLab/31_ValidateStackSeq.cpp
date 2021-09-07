@@ -11,7 +11,7 @@
 序列 {4,5,3,2,1} 是该压栈序列对应的一个弹出序列，但 {4,3,5,1,2} 就不可能是该压栈序列的弹出序列。
 */
 
-#define VALIDATESTACKSEQ
+//#define VALIDATESTACKSEQ
 
 #ifdef VALIDATESTACKSEQ
 using namespace std;
@@ -22,7 +22,7 @@ bool validateStackSequences(vector<int>& pushed, vector<int>& popped)
     if (pushed.size() == 0 || popped.size() == 0) return false;
 
     stack<int> tstack;
-    int pidx = 0;
+    size_t pidx = 0;
     for (size_t idx = 0; idx < pushed.size(); idx++) {
         tstack.push(pushed[idx]);
         while (pidx < popped.size() && tstack.size() > 0 && popped[pidx] == tstack.top()) {

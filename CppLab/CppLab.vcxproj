@@ -23,7 +23,6 @@
     <ClCompile Include="04_FindMatrix.cpp" />
     <ClCompile Include="05_ReplaceBlank.cpp" />
     <ClCompile Include="06_RevertPrintLink.cpp" />
-    <ClCompile Include="07_01_TreeLevelOrder.cpp" />
     <ClCompile Include="07_BuildTree.cpp" />
     <ClCompile Include="08_FindTreeNextNode.cpp" />
     <ClCompile Include="09_QueueByStack.cpp" />
@@ -48,6 +47,10 @@
     <ClCompile Include="29_PrintMatrixInCircle.cpp" />
     <ClCompile Include="30_MinStack.cpp" />
     <ClCompile Include="31_ValidateStackSeq.cpp" />
+    <ClCompile Include="32_TreeLevelOrder.cpp" />
+    <ClCompile Include="33_TreeLevelOrder2.cpp" />
+    <ClCompile Include="34_TreeLevelOrder3.cpp" />
+    <ClCompile Include="35_VerifyPostOrder.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
