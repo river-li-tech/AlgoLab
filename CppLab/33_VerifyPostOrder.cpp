@@ -8,7 +8,7 @@
 如果是则返回 true，否则返回 false。假设输入的数组的任意两个数字都互不相同。
 */
 
-#define VERIFYPOSTORDER
+//#define VERIFYPOSTORDER
 
 #ifdef VERIFYPOSTORDER
 using namespace std;

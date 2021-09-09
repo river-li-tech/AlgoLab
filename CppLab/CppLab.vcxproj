@@ -48,9 +48,11 @@
     <ClCompile Include="30_MinStack.cpp" />
     <ClCompile Include="31_ValidateStackSeq.cpp" />
     <ClCompile Include="32_TreeLevelOrder.cpp" />
-    <ClCompile Include="33_TreeLevelOrder2.cpp" />
-    <ClCompile Include="34_TreeLevelOrder3.cpp" />
-    <ClCompile Include="35_VerifyPostOrder.cpp" />
+    <ClCompile Include="32_TreeLevelOrder2.cpp" />
+    <ClCompile Include="32_TreeLevelOrder3.cpp" />
+    <ClCompile Include="33_VerifyPostOrder.cpp" />
+    <ClCompile Include="34_SumPath.cpp" />
+    <ClCompile Include="35_CopyRandomList.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

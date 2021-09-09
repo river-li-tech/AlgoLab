@@ -102,13 +102,19 @@
     <ClCompile Include="32_TreeLevelOrder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="33_TreeLevelOrder2.cpp">
+    <ClCompile Include="32_TreeLevelOrder3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="34_TreeLevelOrder3.cpp">
+    <ClCompile Include="33_VerifyPostOrder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="35_VerifyPostOrder.cpp">
+    <ClCompile Include="32_TreeLevelOrder2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="34_SumPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="35_CopyRandomList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
