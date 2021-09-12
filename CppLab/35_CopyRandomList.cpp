@@ -10,7 +10,7 @@
 还有一个 random 指针指向链表中的任意节点或者 null。
 */
 
-#define COPYRANDOMLIST
+//#define COPYRANDOMLIST
 
 #ifdef COPYRANDOMLIST
 using namespace std;

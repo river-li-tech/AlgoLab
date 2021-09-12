@@ -53,6 +53,11 @@
     <ClCompile Include="33_VerifyPostOrder.cpp" />
     <ClCompile Include="34_SumPath.cpp" />
     <ClCompile Include="35_CopyRandomList.cpp" />
+    <ClCompile Include="36_TreeToDoublyList.cpp" />
+    <ClCompile Include="37_SerializeTree.cpp" />
+    <ClCompile Include="38_Permutation.cpp" />
+    <ClCompile Include="39_MoreThanHalf.cpp" />
+    <ClCompile Include="40_GetLeastNumbers.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

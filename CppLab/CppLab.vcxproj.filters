@@ -117,5 +117,20 @@
     <ClCompile Include="35_CopyRandomList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="36_TreeToDoublyList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="37_SerializeTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="38_Permutation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="39_MoreThanHalf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="40_GetLeastNumbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
