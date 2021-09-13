@@ -12,7 +12,7 @@
 例如，输入4、5、1、6、2、7、3、8这8个数字，则最小的4个数字是1、2、3、4。
 */
 
-#define GETLEASTNUMBERS
+//#define GETLEASTNUMBERS
 
 #ifdef GETLEASTNUMBERS
 using namespace std;

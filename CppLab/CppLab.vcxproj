@@ -58,6 +58,8 @@
     <ClCompile Include="38_Permutation.cpp" />
     <ClCompile Include="39_MoreThanHalf.cpp" />
     <ClCompile Include="40_GetLeastNumbers.cpp" />
+    <ClCompile Include="41_MedianFinder.cpp" />
+    <ClCompile Include="42_MaxSubArray.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
