@@ -60,6 +60,9 @@
     <ClCompile Include="40_GetLeastNumbers.cpp" />
     <ClCompile Include="41_MedianFinder.cpp" />
     <ClCompile Include="42_MaxSubArray.cpp" />
+    <ClCompile Include="43_FindNthDigit.cpp" />
+    <ClCompile Include="45_MinNumber.cpp" />
+    <ClCompile Include="50_FirstUniqueChar.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
