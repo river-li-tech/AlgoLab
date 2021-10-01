@@ -18,58 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="02_GetDuplication.cpp" />
-    <ClCompile Include="04_FindMatrix.cpp" />
-    <ClCompile Include="05_ReplaceBlank.cpp" />
-    <ClCompile Include="06_RevertPrintLink.cpp" />
-    <ClCompile Include="07_BuildTree.cpp" />
-    <ClCompile Include="08_FindTreeNextNode.cpp" />
-    <ClCompile Include="09_QueueByStack.cpp" />
-    <ClCompile Include="10_Fibonacci.cpp" />
-    <ClCompile Include="11_MinRotateArray.cpp" />
-    <ClCompile Include="12_PathInMatrix.cpp" />
-    <ClCompile Include="13_MovingCount.cpp" />
-    <ClCompile Include="14_CuttingRope.cpp" />
-    <ClCompile Include="15_HammingWeight.cpp" />
-    <ClCompile Include="16_Exponent.cpp" />
-    <ClCompile Include="17_PrintNDigits.cpp" />
-    <ClCompile Include="18_DeleteLinkNode.cpp" />
-    <ClCompile Include="21_Exchange.cpp" />
-    <ClCompile Include="22_GetKthFromEnd.cpp" />
-    <ClCompile Include="23_CircleEntry.cpp" />
-    <ClCompile Include="23_GetIntersectionNode.cpp" />
-    <ClCompile Include="24_RevertList.cpp" />
-    <ClCompile Include="25_MergeList.cpp" />
-    <ClCompile Include="26_SubTree.cpp" />
-    <ClCompile Include="27_MirrorTree.cpp" />
-    <ClCompile Include="28_SymmetricTrees.cpp" />
-    <ClCompile Include="29_PrintMatrixInCircle.cpp" />
-    <ClCompile Include="30_MinStack.cpp" />
-    <ClCompile Include="31_ValidateStackSeq.cpp" />
-    <ClCompile Include="32_TreeLevelOrder.cpp" />
-    <ClCompile Include="32_TreeLevelOrder2.cpp" />
-    <ClCompile Include="32_TreeLevelOrder3.cpp" />
-    <ClCompile Include="33_VerifyPostOrder.cpp" />
-    <ClCompile Include="34_SumPath.cpp" />
-    <ClCompile Include="35_CopyRandomList.cpp" />
-    <ClCompile Include="36_TreeToDoublyList.cpp" />
-    <ClCompile Include="37_SerializeTree.cpp" />
-    <ClCompile Include="38_Permutation.cpp" />
-    <ClCompile Include="39_MoreThanHalf.cpp" />
-    <ClCompile Include="40_GetLeastNumbers.cpp" />
-    <ClCompile Include="41_MedianFinder.cpp" />
-    <ClCompile Include="42_MaxSubArray.cpp" />
-    <ClCompile Include="43_FindNthDigit.cpp" />
-    <ClCompile Include="45_MinNumber.cpp" />
-    <ClCompile Include="50_FirstUniqueChar.cpp" />
-    <ClCompile Include="51_ReversePairs.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ab37c46c-3703-4a02-a44b-e5d755c32e4a}</ProjectGuid>
-    <RootNamespace>CppLab</RootNamespace>
+    <ProjectGuid>{720058ec-c431-45a0-8ce0-b184f138db28}</ProjectGuid>
+    <RootNamespace>Basic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -185,6 +138,17 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="01_Sort\01_MergeSort.cpp" />
+    <ClCompile Include="01_Sort\02_QuickSort.cpp" />
+    <ClCompile Include="01_Sort\03_BubbleSort.cpp" />
+    <ClCompile Include="01_Sort\04_SelectionSort.cpp" />
+    <ClCompile Include="01_Sort\05_InsertionSort.cpp" />
+    <ClCompile Include="01_Sort\06_CountSort.cpp" />
+    <ClCompile Include="01_Sort\07_RadixSort.cpp" />
+    <ClCompile Include="01_Sort\08_BucketSort.cpp" />
+    <ClCompile Include="01_Sort\09_HeapSort.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -147,5 +147,8 @@
     <ClCompile Include="50_FirstUniqueChar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="51_ReversePairs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
