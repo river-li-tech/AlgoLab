@@ -139,7 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01_ClimbStairs.cpp" />
+    <ClCompile Include="62_UniquePaths.cpp" />
+    <ClCompile Include="63_UniquePathsWithObstacles.cpp" />
+    <ClCompile Include="70_ClimbStairs.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
