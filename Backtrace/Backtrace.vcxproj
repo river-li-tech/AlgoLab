@@ -18,23 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="01_Sort\01_BubbleSort.cpp" />
-    <ClCompile Include="01_Sort\02_SelectionSort.cpp" />
-    <ClCompile Include="01_Sort\03_InsertionSort.cpp" />
-    <ClCompile Include="01_Sort\04_ShellSort.cpp" />
-    <ClCompile Include="01_Sort\05_MergeSort.cpp" />
-    <ClCompile Include="01_Sort\06_QuickSort.cpp" />
-    <ClCompile Include="01_Sort\07_HeapSort.cpp" />
-    <ClCompile Include="01_Sort\08_CountSort.cpp" />
-    <ClCompile Include="01_Sort\09_BucketSort.cpp" />
-    <ClCompile Include="01_Sort\10_RadixSort.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{720058ec-c431-45a0-8ce0-b184f138db28}</ProjectGuid>
-    <RootNamespace>Basic</RootNamespace>
+    <ProjectGuid>{485c4ac1-539c-444d-b315-583d4b664f86}</ProjectGuid>
+    <RootNamespace>Backtrace</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -150,6 +138,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="131_Partition.cpp" />
+    <ClCompile Include="216_CombineSum.cpp" />
+    <ClCompile Include="491_FindSubsequences.cpp" />
+    <ClCompile Include="78_Subsets.cpp" />
+    <ClCompile Include="77_Combine.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -18,23 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="01_Sort\01_BubbleSort.cpp" />
-    <ClCompile Include="01_Sort\02_SelectionSort.cpp" />
-    <ClCompile Include="01_Sort\03_InsertionSort.cpp" />
-    <ClCompile Include="01_Sort\04_ShellSort.cpp" />
-    <ClCompile Include="01_Sort\05_MergeSort.cpp" />
-    <ClCompile Include="01_Sort\06_QuickSort.cpp" />
-    <ClCompile Include="01_Sort\07_HeapSort.cpp" />
-    <ClCompile Include="01_Sort\08_CountSort.cpp" />
-    <ClCompile Include="01_Sort\09_BucketSort.cpp" />
-    <ClCompile Include="01_Sort\10_RadixSort.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{720058ec-c431-45a0-8ce0-b184f138db28}</ProjectGuid>
-    <RootNamespace>Basic</RootNamespace>
+    <ProjectGuid>{e682b016-66fb-432d-a914-f120ffe6749e}</ProjectGuid>
+    <RootNamespace>Map</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -150,6 +138,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="001_TwoSum.cpp" />
+    <ClCompile Include="150_EvalRPN.cpp" />
+    <ClCompile Include="15_ThreeSum.cpp" />
+    <ClCompile Include="21_ValidParentheses.cpp" />
+    <ClCompile Include="239_MaxSlidingWindow.cpp" />
+    <ClCompile Include="347_TopKFrequent.cpp" />
+    <ClCompile Include="454_FourSumCount.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -18,31 +18,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_Sort\01_MergeSort.cpp">
+    <ClCompile Include="01_Sort\03_InsertionSort.cpp">
       <Filter>01_Sort</Filter>
     </ClCompile>
-    <ClCompile Include="01_Sort\02_QuickSort.cpp">
+    <ClCompile Include="01_Sort\04_ShellSort.cpp">
       <Filter>01_Sort</Filter>
     </ClCompile>
-    <ClCompile Include="01_Sort\03_BubbleSort.cpp">
+    <ClCompile Include="01_Sort\05_MergeSort.cpp">
       <Filter>01_Sort</Filter>
     </ClCompile>
-    <ClCompile Include="01_Sort\04_SelectionSort.cpp">
+    <ClCompile Include="01_Sort\06_QuickSort.cpp">
       <Filter>01_Sort</Filter>
     </ClCompile>
-    <ClCompile Include="01_Sort\05_InsertionSort.cpp">
+    <ClCompile Include="01_Sort\07_HeapSort.cpp">
       <Filter>01_Sort</Filter>
     </ClCompile>
-    <ClCompile Include="01_Sort\07_RadixSort.cpp">
+    <ClCompile Include="01_Sort\08_CountSort.cpp">
       <Filter>01_Sort</Filter>
     </ClCompile>
-    <ClCompile Include="01_Sort\06_CountSort.cpp">
+    <ClCompile Include="01_Sort\09_BucketSort.cpp">
       <Filter>01_Sort</Filter>
     </ClCompile>
-    <ClCompile Include="01_Sort\08_BucketSort.cpp">
+    <ClCompile Include="01_Sort\10_RadixSort.cpp">
       <Filter>01_Sort</Filter>
     </ClCompile>
-    <ClCompile Include="01_Sort\09_HeapSort.cpp">
+    <ClCompile Include="01_Sort\01_BubbleSort.cpp">
+      <Filter>01_Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="01_Sort\02_SelectionSort.cpp">
       <Filter>01_Sort</Filter>
     </ClCompile>
   </ItemGroup>
