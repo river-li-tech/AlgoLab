@@ -62,7 +62,7 @@ int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid)
     return dp[m - 1][n - 1];
 }
 
-#define UNIQUE_PATHS_WITH_OBSTACLES
+//#define UNIQUE_PATHS_WITH_OBSTACLES
 #ifdef UNIQUE_PATHS_WITH_OBSTACLES
 int main(int argc, char** argv)
 {

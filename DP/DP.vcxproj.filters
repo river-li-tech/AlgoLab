@@ -15,14 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="70_ClimbStairs.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="00_Bag01.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="62_UniquePaths.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="63_UniquePathsWithObstacles.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="70_ClimbStairs.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
