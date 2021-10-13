@@ -18,14 +18,9 @@
 #ifdef REVERSEPAIRS
 using namespace std;
 
-
-
-
-
-
-
 int reversePairs(vector<int>& nums)
 {
+    return 0;
 
 }
 
