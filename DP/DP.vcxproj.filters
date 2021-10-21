@@ -33,5 +33,8 @@
     <ClCompile Include="343_IntegerBreak.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="416_CanPartition.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

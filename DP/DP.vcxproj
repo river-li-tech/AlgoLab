@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="00_Bag01.cpp" />
     <ClCompile Include="343_IntegerBreak.cpp" />
+    <ClCompile Include="416_CanPartition.cpp" />
     <ClCompile Include="62_UniquePaths.cpp" />
     <ClCompile Include="63_UniquePathsWithObstacles.cpp" />
     <ClCompile Include="70_ClimbStairs.cpp" />

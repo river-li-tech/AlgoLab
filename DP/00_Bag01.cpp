@@ -35,7 +35,7 @@ int bag01(vector<int> weight, vector<int> value, int maxweight)
 }
 
 //Ò»Î¬Êý×é
-int bag01(vector<int> weight, vector<int> value, int maxweight)
+int bag01_1(vector<int> weight, vector<int> value, int maxweight)
 {
     int bagSize = weight.size();
     if (bagSize <= 0) return 0;
@@ -58,7 +58,7 @@ int bag01(vector<int> weight, vector<int> value, int maxweight)
     return dp[bagSize - 1][maxweight];
 }
 
-#define BAG_01
+//#define BAG_01
 #ifdef BAG_01
 int main(int argc, char** argv)
 {
