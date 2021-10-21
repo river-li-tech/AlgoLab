@@ -28,7 +28,7 @@ bool canPartition(vector<int>& nums)
     return dp[target] == target;
 }
 
-#define CAN_PARTITION
+//#define CAN_PARTITION
 #ifdef CAN_PARTITION
 int main(int argc, char** argv)
 {

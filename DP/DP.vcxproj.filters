@@ -36,5 +36,8 @@
     <ClCompile Include="416_CanPartition.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="1049_LastStoneWeight.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
