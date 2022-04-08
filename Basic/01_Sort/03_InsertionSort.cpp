@@ -17,7 +17,7 @@ void InsertionSort(vector<int>& arr)
     int len = arr.size();
     int curVal = 0;
     int preIdx = 0;
-    for (size_t i = 0; i < len - 1; i++) {
+    for (size_t i = 1; i < len; i++) {
         curVal = arr[i];
         preIdx = i - 1;
         while (preIdx >= 0 && arr[preIdx] > curVal) {
@@ -28,7 +28,7 @@ void InsertionSort(vector<int>& arr)
     }
 }
 
-//#define INSERTION_SORT
+#define INSERTION_SORT
 #ifdef INSERTION_SORT
 int main(int argc, char** argv)
 {
