@@ -139,12 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="000_GuidFormat.cpp" />
     <ClCompile Include="001_TwoSum.cpp" />
     <ClCompile Include="150_EvalRPN.cpp" />
     <ClCompile Include="15_ThreeSum.cpp" />
     <ClCompile Include="21_ValidParentheses.cpp" />
     <ClCompile Include="239_MaxSlidingWindow.cpp" />
     <ClCompile Include="347_TopKFrequent.cpp" />
+    <ClCompile Include="452_findMinArrowShots.cpp" />
     <ClCompile Include="454_FourSumCount.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

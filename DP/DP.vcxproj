@@ -143,10 +143,12 @@
     <ClCompile Include="1049_LastStoneWeight.cpp" />
     <ClCompile Include="343_IntegerBreak.cpp" />
     <ClCompile Include="416_CanPartition.cpp" />
+    <ClCompile Include="518_Change.cpp" />
     <ClCompile Include="62_UniquePaths.cpp" />
     <ClCompile Include="63_UniquePathsWithObstacles.cpp" />
     <ClCompile Include="70_ClimbStairs.cpp" />
     <ClCompile Include="96_NumTrees.cpp" />
+    <ClCompile Include="TestExtend.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

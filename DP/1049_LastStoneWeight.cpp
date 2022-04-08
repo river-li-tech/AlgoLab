@@ -26,7 +26,7 @@ int lastStoneWeightII(vector<int>& stones)
     return total - dp[target] * 2;
 }
 
-#define LAST_STONE_WEIGHT
+//#define LAST_STONE_WEIGHT
 #ifdef LAST_STONE_WEIGHT
 int main(int argc, char** argv)
 {

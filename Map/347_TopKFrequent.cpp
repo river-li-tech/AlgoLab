@@ -48,7 +48,7 @@ vector<int> topKFrequent(vector<int>& nums, int k)
     return ret;
 }
 
-#define TOPK_FREQUENT
+//#define TOPK_FREQUENT
 #ifdef TOPK_FREQUENT
 int main(int argc, char** argv)
 {

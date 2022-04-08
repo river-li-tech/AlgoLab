@@ -15,26 +15,32 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="001_TwoSum.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="452_findMinArrowShots.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="454_FourSumCount.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="001_TwoSum.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="15_ThreeSum.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="21_ValidParentheses.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="150_EvalRPN.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="239_MaxSlidingWindow.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="347_TopKFrequent.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="454_FourSumCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="000_GuidFormat.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
