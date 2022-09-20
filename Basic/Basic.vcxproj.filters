@@ -1,20 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="01_Sort">
       <UniqueIdentifier>{431b9e1f-a968-4705-989b-4e5b88947d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Search">
+      <UniqueIdentifier>{991a8296-ac1e-48a6-b2bf-59dcf8a1fff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-LinkedList">
+      <UniqueIdentifier>{df9f721e-50f4-4ebd-a18b-af2c20330ab1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -47,6 +41,27 @@
     </ClCompile>
     <ClCompile Include="01_Sort\02_SelectionSort.cpp">
       <Filter>01_Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="02_Search\01_BinarySearch.cpp">
+      <Filter>02_Search</Filter>
+    </ClCompile>
+    <ClCompile Include="03_LinkedList\0002_AddTwoNumbers.cpp">
+      <Filter>03-LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="03_LinkedList\0146_LRUCache.cpp">
+      <Filter>03-LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="03_LinkedList\0021_MergeTwoLists.cpp">
+      <Filter>03-LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="03_LinkedList\offer22_GetKthFromEnd.cpp">
+      <Filter>03-LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="03_LinkedList\0024_RevertList.cpp">
+      <Filter>03-LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="03_LinkedList\0025_ReverseKGroup.cpp">
+      <Filter>03-LinkedList</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

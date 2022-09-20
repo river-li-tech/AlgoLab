@@ -29,6 +29,13 @@
     <ClCompile Include="01_Sort\08_CountSort.cpp" />
     <ClCompile Include="01_Sort\09_BucketSort.cpp" />
     <ClCompile Include="01_Sort\10_RadixSort.cpp" />
+    <ClCompile Include="02_Search\01_BinarySearch.cpp" />
+    <ClCompile Include="03_LinkedList\0002_AddTwoNumbers.cpp" />
+    <ClCompile Include="03_LinkedList\0021_MergeTwoLists.cpp" />
+    <ClCompile Include="03_LinkedList\0024_RevertList.cpp" />
+    <ClCompile Include="03_LinkedList\0025_ReverseKGroup.cpp" />
+    <ClCompile Include="03_LinkedList\0146_LRUCache.cpp" />
+    <ClCompile Include="03_LinkedList\offer22_GetKthFromEnd.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -28,7 +28,7 @@ void InsertionSort(vector<int>& arr)
     }
 }
 
-#define INSERTION_SORT
+//#define INSERTION_SORT
 #ifdef INSERTION_SORT
 int main(int argc, char** argv)
 {
